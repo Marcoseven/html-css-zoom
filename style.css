@@ -1,0 +1,35 @@
+/* common_general_rules  */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1440px;
+}
+/* common_general_rules  */
+
+/**********
+#SITE_HEADER 
+**********/
+
+/**********
+/#SITE_HEADER 
+**********/
+
+/**********
+#SITE_MAIN
+**********/
+
+/**********
+/#SITE_MAIN 
+**********/
+
+/**********
+#SITE_FOOTER
+**********/
+
+/**********
+/#SITE_FOOTER 
+**********/
