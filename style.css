@@ -8,11 +8,65 @@
 body {
 	min-width: 1440px;
 }
+
+.flex {
+	display: flex;
+}
 /* common_general_rules  */
 
 /**********
 #SITE_HEADER 
 **********/
+
+#site_header {
+	background-color: #d5d5d5;
+}
+
+.container_header {
+	width: 100%;
+	line-height: 50px;
+	padding: 0.5rem;
+}
+
+.circle,
+.id {
+	width: 50%;
+	padding: 0 1rem;
+}
+
+.circle > span {
+	padding: 1rem 0.1rem;
+}
+
+#circle_left {
+	color: #fc625d;
+}
+
+#circle_center {
+	color: #fdbf41;
+}
+
+#circle_right {
+	color: #35c94a;
+}
+
+.row {
+	width: 200px;
+	height: 20px;
+	background-color: #fff;
+	margin: 1rem 0.5rem;
+	position: relative;
+}
+
+.row_minor {
+	width: 90%;
+	height: 10px;
+	background-color: #a5a5a5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 /**********
 /#SITE_HEADER 
@@ -21,6 +75,93 @@ body {
 /**********
 #SITE_MAIN
 **********/
+
+#site_main {
+	background-color: #000;
+	padding: 1rem 5rem;
+	position: relative;
+}
+
+.container_main {
+	margin-top: 1rem;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 20%;
+	padding: 0.5rem;
+}
+
+.image {
+	position: relative;
+	height: 100%;
+}
+
+.image > img {
+	height: 100%;
+	width: 100%;
+}
+
+.microphone {
+	color: #fff;
+	width: 40%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	display: block;
+	text-align: left;
+	background-color: #3b372ec2;
+}
+
+.microphone > i {
+	padding: 0 0.5rem;
+	background-repeat: no-repeat;
+	font-size: 13px;
+}
+
+.menu {
+	position: absolute;
+	top: 6px;
+	right: 15px;
+}
+
+.menu_left {
+	display: inline-block;
+	background-color: #393939;
+	color: #fff;
+	width: auto;
+	height: 20px;
+	border-radius: 5px;
+	text-align: left;
+	line-height: 20px;
+}
+
+.menu_left h3 {
+	font-size: 14px;
+	padding: 0 0.5rem;
+}
+
+.menu_left > i,
+h3 {
+	display: inline;
+}
+
+.menu_right {
+	display: inline-block;
+	background-color: #393939;
+	color: #fff;
+	width: 30px;
+	height: 20px;
+	border-radius: 5px;
+	line-height: 20px;
+	margin-left: 0.5rem;
+	text-align: center;
+}
+
+.menu_right i {
+	font-size: 14px;
+}
 
 /**********
 /#SITE_MAIN 
